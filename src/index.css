@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+    themes: wireframe --default; 
+}
+
+/* 
+"wireframe" and "light" themes look clean and professional.
+We can implement dark mode later if liked by the users.
+But by using daisy UI, we get a coherent look and feel across the app.
+And we can change the whole look and feel by changing one word, 
+the name of the theme.You can check all of the themes out at the bottom of this link
+You can try them out by changing the name of the theme here in this file (index.css).
+
+https://daisyui.com/docs/themes/
+*/
